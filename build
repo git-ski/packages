@@ -1,0 +1,5 @@
+#!/bin/sh
+
+SATIS_DIR=`dirname $0`
+git pull origin master
+satis --no-interaction build ${SATIS_DIR}/satis.json ${SATIS_DIR}/public

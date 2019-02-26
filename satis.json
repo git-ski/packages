@@ -1,0 +1,21 @@
+{
+  "name": "gitski/packages",
+  "homepage": "https://packages.gitski.work",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/git-ski/module_pages.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_adminrecaptcha.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_admin_authenticator.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_language.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_permission.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_history.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_inquiry.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_line.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_file.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_customer.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_adminuser.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_oauth2.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_dev.git" },
+    { "type": "vcs", "url": "https://github.com/git-ski/module_webauthn_authenticator.git" }
+  ],
+  "require-all": true
+}
