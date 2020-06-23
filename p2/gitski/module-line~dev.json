@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "gitski/module-line": [
+            {
+                "name": "gitski/module-line",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_line.git",
+                    "reference": "8af65fed28328bebc5f64f30c8ee190e743b0ec5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_line/zipball/8af65fed28328bebc5f64f30c8ee190e743b0ec5",
+                    "reference": "8af65fed28328bebc5f64f30c8ee190e743b0ec5",
+                    "shasum": ""
+                },
+                "require": {
+                    "linecorp/line-bot-sdk": "*"
+                },
+                "time": "2020-06-22T08:51:26+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Line\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "Line",
+                    "デモ"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_line/tree/master",
+                    "issues": "https://github.com/git-ski/module_line/issues"
+                }
+            }
+        ]
+    }
+}

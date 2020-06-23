@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "gitski/module-history": [
+            {
+                "name": "gitski/module-history",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_history.git",
+                    "reference": "ca68666b4b0da78c5dd4eeceba2defa7140880a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_history/zipball/ca68666b4b0da78c5dd4eeceba2defa7140880a8",
+                    "reference": "ca68666b4b0da78c5dd4eeceba2defa7140880a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "gitski/module-customer": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:51:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\History\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "history",
+                    "履歴モジュール"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_history/tree/master",
+                    "issues": "https://github.com/git-ski/module_history/issues"
+                }
+            }
+        ]
+    }
+}

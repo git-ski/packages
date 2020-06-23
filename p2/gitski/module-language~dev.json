@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "gitski/module-language": [
+            {
+                "name": "gitski/module-language",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_language.git",
+                    "reference": "9bbfb490386568445128bfb1a5650ef8cd675af0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_language/zipball/9bbfb490386568445128bfb1a5650ef8cd675af0",
+                    "reference": "9bbfb490386568445128bfb1a5650ef8cd675af0",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:51:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Language\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "language",
+                    "多言語"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_language/tree/master",
+                    "issues": "https://github.com/git-ski/module_language/issues"
+                }
+            }
+        ]
+    }
+}

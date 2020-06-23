@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "gitski/module-dev": [
+            {
+                "name": "gitski/module-dev",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_dev.git",
+                    "reference": "707f7882761a752f3ce7362e2ad9bb236e189900"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_dev/zipball/707f7882761a752f3ce7362e2ad9bb236e189900",
+                    "reference": "707f7882761a752f3ce7362e2ad9bb236e189900",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-dependency-plugin": "^1.0",
+                    "maximebf/debugbar": "^1.15"
+                },
+                "time": "2020-06-22T08:50:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Dev\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "chenhan",
+                        "email": "chen@kdl.co.jp"
+                    }
+                ],
+                "keywords": [
+                    "debug",
+                    "dev",
+                    "secure framework"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_dev/tree/master",
+                    "issues": "https://github.com/git-ski/module_dev/issues"
+                }
+            }
+        ]
+    }
+}

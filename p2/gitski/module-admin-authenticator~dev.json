@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "gitski/module-admin-authenticator": [
+            {
+                "name": "gitski/module-admin-authenticator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_admin_authenticator.git",
+                    "reference": "13820e9acb00a1966116151603d15a810fd21aeb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_admin_authenticator/zipball/13820e9acb00a1966116151603d15a810fd21aeb",
+                    "reference": "13820e9acb00a1966116151603d15a810fd21aeb",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0",
+                    "pragmarx/google2fa-qrcode": "^1.0"
+                },
+                "time": "2020-06-22T08:50:07+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\AdminAuthenticator\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "authentication",
+                    "google authenticator",
+                    "secure framework"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_admin_authenticator/tree/master",
+                    "issues": "https://github.com/git-ski/module_admin_authenticator/issues"
+                }
+            }
+        ]
+    }
+}

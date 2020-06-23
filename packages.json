@@ -1,0 +1,9 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$5af168882084d51d2b2bb387b78b8556daa5819a.json": {
+            "sha1": "5af168882084d51d2b2bb387b78b8556daa5819a"
+        }
+    },
+    "metadata-url": "/p2/%package%.json"
+}

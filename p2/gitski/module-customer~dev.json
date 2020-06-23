@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "gitski/module-customer": [
+            {
+                "name": "gitski/module-customer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_customer.git",
+                    "reference": "d8f7186421dfa2debc7070420012c3ba636c598d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_customer/zipball/d8f7186421dfa2debc7070420012c3ba636c598d",
+                    "reference": "d8f7186421dfa2debc7070420012c3ba636c598d",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "gitski/module-file": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:50:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Customer\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "マイページ",
+                    "ログイン",
+                    "顧客管理"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_customer/tree/master",
+                    "issues": "https://github.com/git-ski/module_customer/issues"
+                }
+            }
+        ]
+    }
+}

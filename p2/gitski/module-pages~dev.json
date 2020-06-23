@@ -1,0 +1,47 @@
+{
+    "packages": {
+        "gitski/module-pages": [
+            {
+                "name": "gitski/module-pages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_pages.git",
+                    "reference": "fbf1bbbab52c6291659dacb11d59164590073480"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_pages/zipball/fbf1bbbab52c6291659dacb11d59164590073480",
+                    "reference": "fbf1bbbab52c6291659dacb11d59164590073480",
+                    "shasum": ""
+                },
+                "time": "2020-06-22T08:51:45+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Pages\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "ページ管理"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_pages/tree/master",
+                    "issues": "https://github.com/git-ski/module_pages/issues"
+                }
+            }
+        ]
+    }
+}

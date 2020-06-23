@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "gitski/module-inquiry": [
+            {
+                "name": "gitski/module-inquiry",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_inquiry.git",
+                    "reference": "81bc87274a968f577220b3aa11695aa90e2b1984"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_inquiry/zipball/81bc87274a968f577220b3aa11695aa90e2b1984",
+                    "reference": "81bc87274a968f577220b3aa11695aa90e2b1984",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-customer": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:49:31+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Inquiry\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "inquiry",
+                    "お問い合わせ"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_inquiry/tree/master",
+                    "issues": "https://github.com/git-ski/module_inquiry/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "gitski/module-oauth": [
+            {
+                "name": "gitski/module-oauth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_oauth2.git",
+                    "reference": "6862e9c02606bceca6b3bf65d67bd0324977dcfc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_oauth2/zipball/6862e9c02606bceca6b3bf65d67bd0324977dcfc",
+                    "reference": "6862e9c02606bceca6b3bf65d67bd0324977dcfc",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-customer": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0",
+                    "league/oauth2-server": "^7"
+                },
+                "time": "2020-06-22T08:51:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\OAuth2Server\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "Oauthサーバー"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_oauth2/tree/master",
+                    "issues": "https://github.com/git-ski/module_oauth2/issues"
+                }
+            }
+        ]
+    }
+}

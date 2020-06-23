@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "gitski/module-permission": [
+            {
+                "name": "gitski/module-permission",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_permission.git",
+                    "reference": "8d755bb8a55ebb8ddec3eabc7f88b0a743500f4b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_permission/zipball/8d755bb8a55ebb8ddec3eabc7f88b0a743500f4b",
+                    "reference": "8d755bb8a55ebb8ddec3eabc7f88b0a743500f4b",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:51:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Permission\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "permission",
+                    "ロール",
+                    "権限管理"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_permission/tree/master",
+                    "issues": "https://github.com/git-ski/module_permission/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,683 @@
+{
+    "packages": {
+        "gitski/module-admin-authenticator": {
+            "dev-master": {
+                "name": "gitski/module-admin-authenticator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_admin_authenticator.git",
+                    "reference": "13820e9acb00a1966116151603d15a810fd21aeb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_admin_authenticator/zipball/13820e9acb00a1966116151603d15a810fd21aeb",
+                    "reference": "13820e9acb00a1966116151603d15a810fd21aeb",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0",
+                    "pragmarx/google2fa-qrcode": "^1.0"
+                },
+                "time": "2020-06-22T08:50:07+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\AdminAuthenticator\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "authentication",
+                    "google authenticator",
+                    "secure framework"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_admin_authenticator/tree/master",
+                    "issues": "https://github.com/git-ski/module_admin_authenticator/issues"
+                }
+            }
+        },
+        "gitski/module-admin-recaptcha": {
+            "dev-master": {
+                "name": "gitski/module-admin-recaptcha",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_adminrecaptcha.git",
+                    "reference": "9f6250ed6b3fc653280ee952f85524ebecc1ef28"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_adminrecaptcha/zipball/9f6250ed6b3fc653280ee952f85524ebecc1ef28",
+                    "reference": "9f6250ed6b3fc653280ee952f85524ebecc1ef28",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "google/recaptcha": "^1.2",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:50:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\AdminRecaptcha\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "secure framework"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_adminrecaptcha/tree/master",
+                    "issues": "https://github.com/git-ski/module_adminrecaptcha/issues"
+                }
+            }
+        },
+        "gitski/module-adminuser": {
+            "dev-master": {
+                "name": "gitski/module-adminuser",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_adminuser.git",
+                    "reference": "6f1fbc4a50a1b50cb44b72df62f7555a61c3a233"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_adminuser/zipball/6f1fbc4a50a1b50cb44b72df62f7555a61c3a233",
+                    "reference": "6f1fbc4a50a1b50cb44b72df62f7555a61c3a233",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:50:26+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\AdminUser\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "管理者モジュール"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_adminuser/tree/master",
+                    "issues": "https://github.com/git-ski/module_adminuser/issues"
+                }
+            }
+        },
+        "gitski/module-customer": {
+            "dev-master": {
+                "name": "gitski/module-customer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_customer.git",
+                    "reference": "d8f7186421dfa2debc7070420012c3ba636c598d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_customer/zipball/d8f7186421dfa2debc7070420012c3ba636c598d",
+                    "reference": "d8f7186421dfa2debc7070420012c3ba636c598d",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "gitski/module-file": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:50:34+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "2.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Customer\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "マイページ",
+                    "ログイン",
+                    "顧客管理"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_customer/tree/master",
+                    "issues": "https://github.com/git-ski/module_customer/issues"
+                }
+            }
+        },
+        "gitski/module-dev": {
+            "dev-master": {
+                "name": "gitski/module-dev",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_dev.git",
+                    "reference": "707f7882761a752f3ce7362e2ad9bb236e189900"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_dev/zipball/707f7882761a752f3ce7362e2ad9bb236e189900",
+                    "reference": "707f7882761a752f3ce7362e2ad9bb236e189900",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-dependency-plugin": "^1.0",
+                    "maximebf/debugbar": "^1.15"
+                },
+                "time": "2020-06-22T08:50:44+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Dev\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "chenhan",
+                        "email": "chen@kdl.co.jp"
+                    }
+                ],
+                "keywords": [
+                    "debug",
+                    "dev",
+                    "secure framework"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_dev/tree/master",
+                    "issues": "https://github.com/git-ski/module_dev/issues"
+                }
+            }
+        },
+        "gitski/module-file": {
+            "dev-master": {
+                "name": "gitski/module-file",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_file.git",
+                    "reference": "6ab4fc967ebdcf71a185d75b53407d25d28951be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_file/zipball/6ab4fc967ebdcf71a185d75b53407d25d28951be",
+                    "reference": "6ab4fc967ebdcf71a185d75b53407d25d28951be",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:51:02+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\File\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "File",
+                    "ファイル管理"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_file/tree/master",
+                    "issues": "https://github.com/git-ski/module_file/issues"
+                }
+            }
+        },
+        "gitski/module-history": {
+            "dev-master": {
+                "name": "gitski/module-history",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_history.git",
+                    "reference": "ca68666b4b0da78c5dd4eeceba2defa7140880a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_history/zipball/ca68666b4b0da78c5dd4eeceba2defa7140880a8",
+                    "reference": "ca68666b4b0da78c5dd4eeceba2defa7140880a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "gitski/module-customer": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:51:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\History\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "history",
+                    "履歴モジュール"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_history/tree/master",
+                    "issues": "https://github.com/git-ski/module_history/issues"
+                }
+            }
+        },
+        "gitski/module-inquiry": {
+            "dev-master": {
+                "name": "gitski/module-inquiry",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_inquiry.git",
+                    "reference": "81bc87274a968f577220b3aa11695aa90e2b1984"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_inquiry/zipball/81bc87274a968f577220b3aa11695aa90e2b1984",
+                    "reference": "81bc87274a968f577220b3aa11695aa90e2b1984",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-customer": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:49:31+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Inquiry\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "inquiry",
+                    "お問い合わせ"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_inquiry/tree/master",
+                    "issues": "https://github.com/git-ski/module_inquiry/issues"
+                }
+            }
+        },
+        "gitski/module-language": {
+            "dev-master": {
+                "name": "gitski/module-language",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_language.git",
+                    "reference": "9bbfb490386568445128bfb1a5650ef8cd675af0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_language/zipball/9bbfb490386568445128bfb1a5650ef8cd675af0",
+                    "reference": "9bbfb490386568445128bfb1a5650ef8cd675af0",
+                    "shasum": ""
+                },
+                "require": {
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:51:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Language\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "language",
+                    "多言語"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_language/tree/master",
+                    "issues": "https://github.com/git-ski/module_language/issues"
+                }
+            }
+        },
+        "gitski/module-line": {
+            "dev-master": {
+                "name": "gitski/module-line",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_line.git",
+                    "reference": "8af65fed28328bebc5f64f30c8ee190e743b0ec5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_line/zipball/8af65fed28328bebc5f64f30c8ee190e743b0ec5",
+                    "reference": "8af65fed28328bebc5f64f30c8ee190e743b0ec5",
+                    "shasum": ""
+                },
+                "require": {
+                    "linecorp/line-bot-sdk": "*"
+                },
+                "time": "2020-06-22T08:51:26+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Line\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "Line",
+                    "デモ"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_line/tree/master",
+                    "issues": "https://github.com/git-ski/module_line/issues"
+                }
+            }
+        },
+        "gitski/module-oauth": {
+            "dev-master": {
+                "name": "gitski/module-oauth",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_oauth2.git",
+                    "reference": "6862e9c02606bceca6b3bf65d67bd0324977dcfc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_oauth2/zipball/6862e9c02606bceca6b3bf65d67bd0324977dcfc",
+                    "reference": "6862e9c02606bceca6b3bf65d67bd0324977dcfc",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-customer": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0",
+                    "league/oauth2-server": "^7"
+                },
+                "time": "2020-06-22T08:51:35+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\OAuth2Server\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "Oauthサーバー"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_oauth2/tree/master",
+                    "issues": "https://github.com/git-ski/module_oauth2/issues"
+                }
+            }
+        },
+        "gitski/module-pages": {
+            "dev-master": {
+                "name": "gitski/module-pages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_pages.git",
+                    "reference": "fbf1bbbab52c6291659dacb11d59164590073480"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_pages/zipball/fbf1bbbab52c6291659dacb11d59164590073480",
+                    "reference": "fbf1bbbab52c6291659dacb11d59164590073480",
+                    "shasum": ""
+                },
+                "time": "2020-06-22T08:51:45+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Pages\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "ページ管理"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_pages/tree/master",
+                    "issues": "https://github.com/git-ski/module_pages/issues"
+                }
+            }
+        },
+        "gitski/module-permission": {
+            "dev-master": {
+                "name": "gitski/module-permission",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_permission.git",
+                    "reference": "8d755bb8a55ebb8ddec3eabc7f88b0a743500f4b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_permission/zipball/8d755bb8a55ebb8ddec3eabc7f88b0a743500f4b",
+                    "reference": "8d755bb8a55ebb8ddec3eabc7f88b0a743500f4b",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:51:54+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\Permission\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "permission",
+                    "ロール",
+                    "権限管理"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_permission/tree/master",
+                    "issues": "https://github.com/git-ski/module_permission/issues"
+                }
+            }
+        },
+        "gitski/module-webauthn-authenticator": {
+            "dev-master": {
+                "name": "gitski/module-webauthn-authenticator",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_webauthn_authenticator.git",
+                    "reference": "4c966e1de06d9f3752343524faf25280b83e1ee8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_webauthn_authenticator/zipball/4c966e1de06d9f3752343524faf25280b83e1ee8",
+                    "reference": "4c966e1de06d9f3752343524faf25280b83e1ee8",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-customer": "master",
+                    "laminas/laminas-dependency-plugin": "^1.0",
+                    "mobiledetect/mobiledetectlib": "^2",
+                    "web-auth/webauthn-lib": "^3"
+                },
+                "time": "2020-06-22T08:52:04+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\WebauthnAuthenticator\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "Webauthn",
+                    "マイページ",
+                    "ログイン"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_webauthn_authenticator/tree/master",
+                    "issues": "https://github.com/git-ski/module_webauthn_authenticator/issues"
+                }
+            }
+        }
+    }
+}

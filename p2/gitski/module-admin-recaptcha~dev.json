@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "gitski/module-admin-recaptcha": [
+            {
+                "name": "gitski/module-admin-recaptcha",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/git-ski/module_adminrecaptcha.git",
+                    "reference": "9f6250ed6b3fc653280ee952f85524ebecc1ef28"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/git-ski/module_adminrecaptcha/zipball/9f6250ed6b3fc653280ee952f85524ebecc1ef28",
+                    "reference": "9f6250ed6b3fc653280ee952f85524ebecc1ef28",
+                    "shasum": ""
+                },
+                "require": {
+                    "gitski/module-adminuser": "master",
+                    "google/recaptcha": "^1.2",
+                    "laminas/laminas-dependency-plugin": "^1.0"
+                },
+                "time": "2020-06-22T08:50:18+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.0"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Project\\AdminRecaptcha\\": "./"
+                    },
+                    "files": [
+                        "module.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "keywords": [
+                    "secure framework"
+                ],
+                "support": {
+                    "source": "https://github.com/git-ski/module_adminrecaptcha/tree/master",
+                    "issues": "https://github.com/git-ski/module_adminrecaptcha/issues"
+                }
+            }
+        ]
+    }
+}
